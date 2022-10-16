@@ -17,6 +17,8 @@ header div.imagen_carnet{
 header img{
     width: 100px;
     height: 146.37px;
+    display: block;
+    border-radius: 50%;
 }
 h1.titulo{
     background-color: #C4C4C4;
