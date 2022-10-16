@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman';
+}
+/* header */
+header{
+    background: #E6E6E6;
+    padding-bottom: 5px;
+    margin-bottom: 128px;
+    width: 1440px;
+    height: 188.19px;
+}
+header div.imagen_carnet{
+    padding:20.91px 670px;
+}
+header img{
+    width: 100px;
+    height: 146.37px;
+}
+h1.titulo{
+    background-color: #C4C4C4;
+    text-align: center;
+    color: #005677;
+}
+/* main */
+div.titulo {
+    width: 1440px;
+    height: 30px;
+    left: 0px;
+    top: 673px;
+}
+h2.h2{
+    background-color: #C4C4C4;
+    width: 1440px;
+    height: 30px;
+    color: #005677;
+    margin-bottom: 19px;
+    padding-left: 12.45px;
+    
+}
+#datos_personales{
+    margin-bottom: 35px;
+}
+#formacion_academica{
+    margin-bottom: 30px;
+}
+#experiencia_laboral{
+    margin-bottom: 147px;
+}
+.datos_personales{
+    padding-left: 25px;
+    text-align: justify;
+}
+.formacion_academica, .experiencia_laboral{
+    list-style-type: none;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+
+
+/* footer */
+.footer{
+    background: #005677;
+    
+    width: 1440px;
+    height: 37px;
+    left: 0px;
+    top: 987px;
+    
+}
+footer div{
+    padding-left: 601px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.email{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 84.69%;
+    color:white;
+    text-decoration: none;
+}
+.iconos{
+    padding-left:26px;
+}
+
