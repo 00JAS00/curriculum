@@ -1,15 +1,25 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Times New Roman';
+    font-family: 'Questrial', sans-serif;
+    
+}
+html{
+    background-image: url(https://www.soydigitalmind.com/frontend/images/bg-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 146.37px;
 }
 /* header */
 header{
-    background: #E6E6E6;
+    background-color: black;
     padding-bottom: 5px;
     margin-bottom: 128px;
     width: 1440px;
     height: 188.19px;
+    background-image: url(https://i.gifer.com/origin/37/376a66dacbd417010b5eda0d46ada276.gif);
+    background-size: contain;
 }
 header div.imagen_carnet{
     padding:20.91px 670px;
@@ -21,9 +31,11 @@ header img{
     border-radius: 50%;
 }
 h1.titulo{
-    background-color: #C4C4C4;
+    background-color: rgb(13, 170, 13);
     text-align: center;
-    color: #005677;
+    color: #ffffff;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 /* main */
 div.titulo {
@@ -32,14 +44,21 @@ div.titulo {
     left: 0px;
     top: 673px;
 }
-h2.h2{
-    background-color: #C4C4C4;
+div.h2{
+    background-color: rgb(13, 170, 13);
     width: 1440px;
     height: 30px;
-    color: #005677;
     margin-bottom: 19px;
+}
+h2.h2{
+    color: #ffffff;
     padding-left: 12.45px;
-    
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #datos_personales{
     margin-bottom: 35px;
@@ -48,34 +67,46 @@ h2.h2{
     margin-bottom: 30px;
 }
 #experiencia_laboral{
-    margin-bottom: 147px;
+    margin-bottom: 100px;
 }
 .datos_personales{
     padding-left: 25px;
     text-align: justify;
+    color: #ffffff;
 }
 .formacion_academica, .experiencia_laboral{
     list-style-type: none;
     padding-left: 20px;
     text-align: justify;
+    color: #ffffff;
+}
+.link{
+    color:#ffffff;
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(13, 170, 13);
 }
 
 
 
 /* footer */
-.footer{
-    background: #005677;
-    
+footer.footer{
+    background-color: rgb(13, 170, 13);
     width: 1440px;
-    height: 37px;
+    height: 20px;
     left: 0px;
     top: 987px;
-    
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 footer div{
     padding-left: 601px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    height: 10px;
+    width: 400px;
+}
+a:hover{
+    color: black;
 }
 .email{
     font-style: normal;
@@ -86,6 +117,13 @@ footer div{
     text-decoration: none;
 }
 .iconos{
-    padding-left:26px;
+    margin-left:26px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
 }
+.iconos:hover{
+    background-color: black;
+}
+
 
